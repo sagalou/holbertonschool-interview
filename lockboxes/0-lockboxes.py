@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""Module that determinate if all the boxes can be opened"""
+
+
 def canUnlockAll(boxes):
+    """Determinate if al boxes can be opened"""
     unlocked = {0}
     keys = [0]
 
