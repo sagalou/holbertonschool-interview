@@ -2,6 +2,7 @@
 """Read stdin lines and print stats every 10 lines or on KeyboardInterrupt."""
 import sys
 
+
 STATUS_CODES = ["200", "301", "400", "401", "403", "404", "405", "500"]
 
 def print_stats(total_size, counts):
