@@ -5,6 +5,7 @@ import sys
 
 STATUS_CODES = ["200", "301", "400", "401", "403", "404", "405", "500"]
 
+
 def print_stats(total_size, counts):
     print("File size: {}".format(total_size))
     for code in sorted(counts.keys()):
