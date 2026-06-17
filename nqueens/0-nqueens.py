@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """Module that solves the N queens problem"""
 
+
 import sys
+
 
 def queens(n):
     """Placeholder for N queens solution logic."""
@@ -23,6 +25,7 @@ def queens(n):
     for sol in solutions:
         print(sol)
 
+
 def is_safe(placed, row):
     """Return True if placing a queen at given row is safe for next column."""
     col = len(placed)
@@ -34,6 +37,7 @@ def is_safe(placed, row):
         if abs(r - row) == abs(c - col):
             return False
     return True
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
